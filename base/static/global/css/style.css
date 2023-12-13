@@ -39,7 +39,7 @@ body {
 }
 
 @media (min-width: 600px) {
-    .content {
+    .content:not(:has(.single-post)) {
         grid-template-columns: repeat(auto-fill, minmax(48rem, 1fr));
     }
 }
