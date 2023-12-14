@@ -7,6 +7,25 @@
     box-sizing: border-box;
 }
 
+.menu {
+    background: black;
+    padding: 1.5rem;
+}
+
+.menu__links a {
+    color: white;
+    list-style: none;
+}
+
+a {
+    color: rgb(71, 172, 244);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 html {
     font-size: 50%;
 }
